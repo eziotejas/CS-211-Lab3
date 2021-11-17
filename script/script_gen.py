@@ -1,6 +1,6 @@
 algos = ["0","1","2","3"]
-nodes = ["1","2","4","8"]
-paralisms = ["32","64","128","256"]
+nodes = ["1", "2", "4", "8"]
+paralisms = ["32", "64", "128", "256"]
 for algo in algos:
     for i in range(len(nodes)):
         node = nodes[i]
@@ -14,7 +14,7 @@ for algo in algos:
 
 module load mpich-3.2.1/gcc-4.8.5
 
-mpirun -np {P} ./../build/sieve{AG} 10000000000 &> ../result/sieve{AG}_np_{P}_output.txt
+mpirun -np {P} ./../build/sieve{AG} 10000000 &> ../result/sieve{AG}_np_{P}_output.txt
 
 rm *.err *.o
 

@@ -1,0 +1,6 @@
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/rebuild_cache.dir
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/sieve2.dir
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/sieve0.dir
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/sieve1.dir
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/edit_cache.dir
+/home/tmane002/CS-211-Lab3/build/CMakeFiles/sieve3.dir

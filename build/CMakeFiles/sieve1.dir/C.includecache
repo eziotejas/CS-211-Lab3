@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/act-software/mpich-3.2.1/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/home/act-software/mpich-3.2.1/include/mpio.h
+mpicxx.h
+/home/act-software/mpich-3.2.1/include/mpicxx.h
+
+/home/act-software/mpich-3.2.1/include/mpicxx.h
+stdio.h
+-
+
+/home/act-software/mpich-3.2.1/include/mpio.h
+mpi.h
+/home/act-software/mpich-3.2.1/include/mpi.h
+
+/home/tmane002/CS-211-Lab3/sieve1.c
+mpi.h
+/home/tmane002/CS-211-Lab3/mpi.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+

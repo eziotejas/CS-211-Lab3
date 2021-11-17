@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -lm  -rdynamic -Wl,-rpath -Wl,/act/mpich-3.2.1/lib -Wl,--enable-new-dtags CMakeFiles/sieve1.dir/sieve1.c.o  -o sieve1 -Wl,-rpath,/home/act-software/mpich-3.2.1/lib /home/act-software/mpich-3.2.1/lib/libmpicxx.so /home/act-software/mpich-3.2.1/lib/libmpi.so 
